@@ -51,6 +51,7 @@
 #define DAPL_FD_SETSIZE FD_SETSIZE
 #endif
 
+#include <sys/uio.h>
 #include "dapl.h"
 #include "dapl_adapter_util.h"
 #include "dapl_evd_util.h"
